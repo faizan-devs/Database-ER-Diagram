@@ -139,3 +139,10 @@ subscriptions.id < progress_records.subscription_id
 
 check_ins.id - trainer_notes.check_in_id
 check_ins.id - progress_records.check_in_id
+
+-- Database Tables/Columns	snake_case	user_profile, created_at
+-- JSON API Payload	camelCase/snake	{ "firstName": "John" } or { "first_name": "John" }
+-- Java/JS Variables/Methods	camelCase	getUserData(), isValid
+-- Classes/Interfaces	PascalCase	UserManager, OrderService
+-- API Endpoints (URL)	kebab-case	/api/v1/user-profiles
+-- Environment Variables	MACRO_CASE	DB_PASSWORD, API_KEY
