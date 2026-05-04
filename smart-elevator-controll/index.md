@@ -1,4 +1,4 @@
-```mermaid
+```sql
 buildings[icon: building, color: blue] {
   id int PK
   building_name varchar(100)
@@ -173,3 +173,4 @@ elevators.id < elevator_daily_metrics.elevator_id
 
 elevators.id < maintenances.elevator_id
 maintenances.id < maintenance_history.maintenance_id
+```
