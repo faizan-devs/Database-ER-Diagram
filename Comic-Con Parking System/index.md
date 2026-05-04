@@ -1,3 +1,4 @@
+```mermaid
 users[icon: user, color: yellow]{
   id int PK
   full_name VARCHAR(100)

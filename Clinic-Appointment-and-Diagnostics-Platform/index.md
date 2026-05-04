@@ -1,3 +1,4 @@
+```mermaid
 users[icon: user, color: yellow]{
   id serial PK
   full_name VARCHAR(100) not null

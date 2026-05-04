@@ -1,3 +1,4 @@
+```mermaid
 buildings[icon: building, color: blue] {
   id int PK
   building_name varchar(100)

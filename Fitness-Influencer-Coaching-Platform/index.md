@@ -1,3 +1,4 @@
+```mermaid
 trainers [color: blue]{
   id serial pk
   name VARCHAR(100) not null
