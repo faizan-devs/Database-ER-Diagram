@@ -1,4 +1,4 @@
-```mermaid
+```sql
 trainers [color: blue]{
   id serial pk
   name VARCHAR(100) not null
@@ -147,3 +147,4 @@ check_ins.id - progress_records.check_in_id
 -- Classes/Interfaces	PascalCase	UserManager, OrderService
 -- API Endpoints (URL)	kebab-case	/api/v1/user-profiles
 -- Environment Variables	MACRO_CASE	DB_PASSWORD, API_KEY
+```

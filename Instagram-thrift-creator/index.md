@@ -98,3 +98,4 @@ orders.id < payments.order_id
 orders.id < shipments.order_id
 
 products.id < order_items.product_id
+```

@@ -1,4 +1,4 @@
-```mermaid
+```sql
 users[icon: user, color: yellow]{
   id serial PK
   full_name VARCHAR(100) not null
@@ -121,3 +121,4 @@ consultations.id < payments.consultation_id
 
 diagnostic_tests.id < reports.diagnostic_tests_id
 diagnostic_tests.id < payments.diagnostic_tests_id
+```

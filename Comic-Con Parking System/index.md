@@ -1,4 +1,4 @@
-```mermaid
+```sql
 users[icon: user, color: yellow]{
   id int PK
   full_name VARCHAR(100)
@@ -97,3 +97,4 @@ parking_sessions.id < payments.session_id
 
 vehicles.id < reservations.vehicle_id
 spots.id < reservations.spot_id
+```
