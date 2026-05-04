@@ -1,4 +1,4 @@
-```mermaid
+```sql
 customers [icon: user, color: orange]{
   id serial pk
   name VARCHAR(100) not null
